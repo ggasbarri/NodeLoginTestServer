@@ -1,0 +1,30 @@
+{
+    "rules": {
+        "jsx-a11y/click-events-have-key-events": 0,
+        "comma-dangle": ["error", "never"],
+        "semi": ["error", "always"],
+        "react/jsx-filename-extension": 0,
+        "react/prop-types": 0,
+        "react/no-find-dom-node": 0,
+        "jsx-a11y/label-has-for": 0,
+        "import/no-unresolved": 0,
+        "import/extensions": 0,
+        "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
+        "no-tabs": 0,
+        "no-mixed-operators": 0,
+        "no-mixed-spaces-and-tabs": 0,
+        "no-nested-ternary": 0,
+        "jsx-a11y/no-noninteractive-element-interactions": 0,
+        "linebreak-style": [0, "windows"]
+    },
+    "globals": {
+        "document": true,
+        "window": true
+    },
+    "env": {
+        "jest": true,
+        "es6": true,
+        "node": true,
+        "browser": true
+    }
+}
