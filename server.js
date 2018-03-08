@@ -94,6 +94,6 @@ app.post('/register', (req, res) => {
     res.json(database.users[database.users.length - 1]);
 });
 
-app.listen(3000, () => {
+app.listen(3001, () => {
     console.log('Running');
 });
